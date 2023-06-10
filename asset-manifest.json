@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.ad864b67.css",
-    "main.js": "/static/js/main.0f1d9b47.js",
+    "main.js": "/static/js/main.44494bfe.js",
     "static/css/350.c008fee7.chunk.css": "/static/css/350.c008fee7.chunk.css",
-    "static/js/350.223c7a1b.chunk.js": "/static/js/350.223c7a1b.chunk.js",
+    "static/js/350.43efd190.chunk.js": "/static/js/350.43efd190.chunk.js",
     "static/js/14.5cf3f240.chunk.js": "/static/js/14.5cf3f240.chunk.js",
     "static/media/example6.png": "/static/media/example6.15d53655806c7bc1a4c7.png",
     "static/media/example5.png": "/static/media/example5.c0edafb6c588a12d2ef6.png",
@@ -38,6 +38,7 @@
     "static/media/RonniPiachere.webp": "/static/media/RonniPiachere.bbde264c41dc2a415af0.webp",
     "static/media/SainDenisExplosion.webp": "/static/media/SainDenisExplosion.55c856ea8844f6e09c51.webp",
     "static/media/volkov15.webp": "/static/media/volkov15.eb2205ccd7407bfb389a.webp",
+    "static/media/Otros30.webp": "/static/media/Otros30.9c1029b3214dce6c8e63.webp",
     "static/media/pkt.webp": "/static/media/pkt.eb6349b3eb0f3874c242.webp",
     "static/media/NoHomo.webp": "/static/media/NoHomo.a239e6e63b76ed85b0bf.webp",
     "static/media/gozu1.png": "/static/media/gozu1.71599d5497f80f79c6c2.png",
@@ -114,6 +115,7 @@
     "static/media/Mine16.webp": "/static/media/Mine16.5218f5bb42d109b2d619.webp",
     "static/media/ChuchuFum.webp": "/static/media/ChuchuFum.378597c668d2d198d935.webp",
     "static/media/Otros14.webp": "/static/media/Otros14.e59f674454e6cd43190f.webp",
+    "static/media/Mine20.webp": "/static/media/Mine20.c6e57d24f4305879e8ab.webp",
     "static/media/kami5.webp": "/static/media/kami5.40df91ffbddad67db354.webp",
     "static/media/Indios5.webp": "/static/media/Indios5.35e351bae2cb8411984e.webp",
     "static/media/Ganga18.webp": "/static/media/Ganga18.fc8a379b426b1f85f6ca.webp",
@@ -133,6 +135,7 @@
     "static/media/Indios3.webp": "/static/media/Indios3.930774f2141e34e5b920.webp",
     "static/media/Iglesia3.webp": "/static/media/Iglesia3.bd5440724cec5faffd45.webp",
     "static/media/Descanso.webp": "/static/media/Descanso.cba49ac693d3d705a7ea.webp",
+    "static/media/PerraVida9.webp": "/static/media/PerraVida9.1e782782bed83e602fb2.webp",
     "static/media/SeaOfThieves10.webp": "/static/media/SeaOfThieves10.44153f50dd0723a78cae.webp",
     "static/media/Mine9.webp": "/static/media/Mine9.9dec57d774b1c048c8fc.webp",
     "static/media/Ganga25.webp": "/static/media/Ganga25.8667056933566f7140cf.webp",
@@ -335,13 +338,13 @@
     "static/media/Otros10.webp": "/static/media/Otros10.00730bb2f2679d17de90.webp",
     "index.html": "/index.html",
     "main.ad864b67.css.map": "/static/css/main.ad864b67.css.map",
-    "main.0f1d9b47.js.map": "/static/js/main.0f1d9b47.js.map",
+    "main.44494bfe.js.map": "/static/js/main.44494bfe.js.map",
     "350.c008fee7.chunk.css.map": "/static/css/350.c008fee7.chunk.css.map",
-    "350.223c7a1b.chunk.js.map": "/static/js/350.223c7a1b.chunk.js.map",
+    "350.43efd190.chunk.js.map": "/static/js/350.43efd190.chunk.js.map",
     "14.5cf3f240.chunk.js.map": "/static/js/14.5cf3f240.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ad864b67.css",
-    "static/js/main.0f1d9b47.js"
+    "static/js/main.44494bfe.js"
   ]
 }
