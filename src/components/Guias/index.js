@@ -219,7 +219,7 @@ const Guias = () => {
               <GitPull />
               </div>
 
-              <div className="DeployarVercel" id="DeployarVercel">
+              {/* <div className="DeployarVercel" id="DeployarVercel">
               <h2 id='DeployarVercel'>Deployar con Vercel</h2>
               <h2>Paso 1: Setear datos dentro de los archivos de la pagina</h2>
               <p>- Abrir el archivo package.json</p>
@@ -255,7 +255,7 @@ const Guias = () => {
               <p>Cuando se te solicite el directorio de la aplicación, asegúrate de especificar la carpeta de compilación de tu proyecto de React. Por lo general, es <span className='INegrita'>build o dist</span></p>
               <p>A lo largo de las configuraciónes te pedira usar configuraciónes predeterminadas o personalizadas.</p>
               <p>Después de completar la configuración, se desplegará el proyecto en Vercel.</p>
-              </div>
+              </div> */}
 
               <div className='MasUsados' id='ReactIcons'>
                 <h2>Codigos mas usados</h2>
@@ -465,7 +465,7 @@ const Guias = () => {
               <Link to="Recursos" smooth={true} duration={700} spy={true} exact="true" offset={-10} activeClass="active" onSetActive={handleSetActive}><a>RECURSOS</a></Link>
               <Link to="Deployar" smooth={true} duration={700} spy={true} exact="true" offset={14} activeClass="active" onSetActive={handleSetActive}><a>DEPLOYAR DOMINIO</a></Link>
               <Link to="Extra" smooth={true} duration={700} spy={true} exact="true" offset={-100} activeClass="active" onSetActive={handleSetActive}><a>EXTRA</a></Link>
-              <Link to="DeployarVercel" smooth={true} duration={700} spy={true} exact="true" offset={14} activeClass="active" onSetActive={handleSetActive}><a>DEPLOYAR VERCEL</a></Link>
+              {/* <Link to="DeployarVercel" smooth={true} duration={700} spy={true} exact="true" offset={14} activeClass="active" onSetActive={handleSetActive}><a>DEPLOYAR VERCEL</a></Link> */}
 
               <p>CODIGOS MAS USADOS</p>
               <Link to="ReactIcons" smooth={true} duration={700} spy={true} exact="true" offset={0} activeClass="active" onSetActive={handleSetActive}><a>React-Icons</a></Link>
