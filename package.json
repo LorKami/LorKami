@@ -1,5 +1,6 @@
 {
   "name": "lorkamipersonal",
+  "homepage": "https://lorkami.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,7 +22,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.9.0",
     "react-router-dom": "^6.12.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.9",
     "react-simple-typewriter": "^5.0.1",
     "react-syntax-highlighter": "^15.5.0",
