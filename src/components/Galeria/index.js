@@ -199,6 +199,7 @@ const Galeria = () => {
       require('../../images/Galeria/Fivem/PerraVida6.webp'),
       require('../../images/Galeria/Fivem/PerraVida7.webp'),
       require('../../images/Galeria/Fivem/PerraVida8.webp'),
+      require('../../images/Galeria/Fivem/PerraVida9.webp'),
       require('../../images/Galeria/Fivem/MexicanLife1.webp'),
       require('../../images/Galeria/Fivem/MexicanLife2.webp'),
       require('../../images/Galeria/Fivem/MexicanLife3.webp'),
@@ -308,6 +309,7 @@ const Galeria = () => {
       require('../../images/Galeria/OtrosJuegos/Otros27.webp'),
       require('../../images/Galeria/OtrosJuegos/Otros28.webp'),
       require('../../images/Galeria/OtrosJuegos/Otros29.webp'),
+      require('../../images/Galeria/OtrosJuegos/Otros30.webp'),
   ];
 
   const Minecraft = [
@@ -330,6 +332,7 @@ const Galeria = () => {
     require('../../images/Galeria/Minecraft/Mine17.webp'),
     require('../../images/Galeria/Minecraft/Mine18.webp'),
     require('../../images/Galeria/Minecraft/Mine19.webp'),
+    require('../../images/Galeria/Minecraft/Mine20.webp'),
 ];
 
     const [imagenAbierta, setImagenAbierta] = useState(null);
