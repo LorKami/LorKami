@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+.SuperMenu-Open {
+    z-index: 999;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12%;
+    /* margin-left: -240px; */
+    width: 300px;
+    height: 400px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: rgb(250, 238, 218);
+    background-image: url(../../images/Menu/footerback.png);
+    background-position: center 8%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    /* border: solid red 2px; */
+
+    transform: translateX(-13px);
+    transition: 0.3s;
+}
+
+.SuperMenu-Closed {
+    z-index: 999;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12%;
+    /* margin-left: -240px; */
+    width: 300px;
+    height: 400px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: rgb(250, 238, 218);
+    background-image: url(../../images/Menu/footerback.png);
+    background-position: center 1%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    /* border: solid red 2px; */
+
+    transform: translateX(-240px);
+    transition: 0.3s;
+}
+
+.MenuHeader {
+    display: flex;
+    /* border: solid rgb(76, 0, 255) 2px; */
+}
+
+.MenuLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    width: 100%;
+    /* border: solid rgb(102, 255, 0) 2px; */
+}
+
+.MenuLogo img {
+    display: flex;
+    width: 20%;
+    transition: 1s;
+}
+
+
+.MenuLogo img:hover{
+    transform: rotate(-30deg) scale(1.05);
+}
+.MenuHamburger {
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6px;
+    margin-right: 6px;
+    transition: 0.3s;
+    /* border: solid red 2px;  */
+}
+
+.MenuHamburger:hover{
+    transform: translateY(3px);
+}
+
+.SectionDivisor {
+    height: 100%;
+    display: flex;
+    /* border: solid red 2px; */
+}
+
+.MenuContainer {
+    width: 100%;
+    margin-right: 10px;
+    /* border: solid rgb(0, 26, 255) 2px; */
+}
+
+.MenuContainer a,
+.MenuContainer p {
+    text-decoration: none;
+    color: #6b553b;
+    font-size: 28px;
+    font-family: 'Caveat Brush', cursive;
+    cursor: pointer;
+}
+
+.Menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    margin-top: 50px;
+    border-bottom: 2px solid black;
+    /* border: solid rgb(0, 47, 255) 2px;  */
+    }
+    
+    .MenuPlus {
+        display: flex;
+        width: 25px;
+        height: 25px;
+        margin-left: 33%;
+        cursor: pointer;
+        /* border: solid rgb(255, 60, 0) 2px; */
+    }
+
+    .MenuPlus span{
+        color: #6b553b;
+        transition: 0.3s;
+    }
+
+    .MenuPlus span::after{
+        color: #2d2d2d;
+        transform: rotate(180deg)
+    }
+
+    .Menu p{
+        transition: 0.3s;
+    }
+    
+    .Menu p:hover {
+        color: #2d2d2d;
+        transform: translateX(3px);
+    }
+
+.MenuSocial {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 180px;
+    margin-right: 14px;
+    height: 40%;
+    /* border: solid rgb(0, 225, 255) 3px; */
+}
+
+.SocialIco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    /* border: solid rgb(255, 0, 21) 2px; */
+}
+
+.SocialIco .blocked {
+    cursor: not-allowed;
+}
+
+.SocialIco a {
+    transition: 0.3s;
+}
+
+.SocialIco a:hover {
+    color: #2d2d2d;
+    transform: translateX(3px);
+}
+
+.SocialIco img {
+    display: flex;
+    width: 100%;
+}
+
+.MenuText {
+    margin-left: 70px;
+    line-height: 10px;
+}
+
+.MenuText p{
+    transition: 0.3s;
+}
+
+.MenuText p:hover {
+    color: #2d2d2d;
+    transform: translateX(3px);
+}
+
+
+/*MorePanel*/
+
+
+.MorePanel-Open {
+    margin-left: 50px;
+    transition: 0.3s;
+    line-height: 10px;
+    /* background-color: red; */
+    }
+
+    .MorePanel-Open p{
+        transition: 0.3s;
+    }
+    
+    .MorePanel-Open p:hover {
+        color: #2d2d2d;
+        transform: translateX(3px);
+    }
+
+    .MorePanel-Closed {
+        display: none;
+        transition: 0.3s;
+    }
+
+
+    /* ICON */
+.Arrow-up {
+    transform: rotate(180deg);
+  }
+
+.Arrow-down {
+    transform: rotate(360deg);
+}
+
+ 

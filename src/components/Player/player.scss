@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+.player_container
+{
+    width: 330px;
+    height: 200px;
+    padding: 15px;
+    // border: 0px solid rgb(141, 141, 141);
+    border-radius: 10px;
+    // color: rgb(218, 218, 218);
+    color: #282828;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    // background-color: rgba(255,255,255,0.4);
+    background-color: rgb(40, 40, 40, 0.7);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 5px 1px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 5px 1px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 1px 0px rgba(0,0,0,0.75);
+
+    >*
+    {
+        padding: 0.2rem 0;
+        color: white;
+    }
+
+    .ImageMusic {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        // height: 150px;
+        // border: solid rgb(0, 255, 0) 2px;
+      }
+
+      .MusicPic {
+        display: flex;
+        width: 60%;
+        animation: 18s infinite linear rotating;
+        //border: solid rgb(255, 136, 0) 2px;
+      }
+      
+      .MusicPic img{
+        display: flex;
+        width: 100%;
+      }
+
+    @keyframes rotating {
+        from {
+    
+          transform: rotate(0deg);
+        }
+        to {
+    
+          transform: rotate(360deg);
+        }
+    }
+
+    .MusicInfo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 10px;
+        // border: solid rgb(0, 255, 255) 2px;
+    }
+
+    .title{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 23px;
+        // font-family: 'Caveat Brush', cursive;
+        font-size: 18px;
+        font-weight: 800;
+        // border: solid rgb(255, 0, 0) 2px;
+    }
+
+    .artist{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 23px;
+        // font-family: 'Caveat Brush', cursive;
+        font-size: 14px;
+        font-weight: 100;
+        // border: solid rgb(55, 0, 255) 2px;
+    }
+
+    .navigation{
+        width: 100%;
+
+
+        .navigation_wrapper
+        {
+            min-width: 100%;
+            background-color: rgba(119, 119, 119, 0.781);
+            height: 5px;
+            border-radius: 30px;
+            cursor: pointer;
+            
+            .seek_bar{
+                width: 0;
+                height: 100%;
+                background-color: white;
+                border-radius: 30px;
+            }
+
+        }
+    }
+
+    .time{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 10px;
+        // border: solid rgb(55, 0, 255) 2px;
+    }
+
+    .time p {
+        font-size: 10px;
+        margin-bottom: 50px;
+    }
+
+    .controls{
+        font-size: inherit;
+        display: flex;
+        align-items: center;
+
+        .btn_action
+        {
+            font-size: 30px;
+            margin: 0 5px;
+            cursor: pointer;
+
+            &:hover{
+            color: white;
+        }
+
+        }
+        
+        .pp
+        {
+            font-size: 40px;
+            
+        } 
+    }
+
+}

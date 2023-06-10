@@ -1,0 +1,112 @@
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    /* border: 2px solid white; */
+  }
+  
+  .imagen-thumbnail {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+
+  .imagen-thumbnail:hover {
+    transform: scale(1.1);
+  }
+
+  .BorderRedm{
+    border-color: #2e2e2e;
+    border-image: repeat;
+    border-image-slice: 20;
+    border-style: solid;
+    border-width: 20px;
+    border-image-source: url(../../images/Borders/border1-3.png);
+  }
+
+  .BorderFivem{
+    border-color: #2e2e2e;
+    border-image: repeat;
+    border-image-slice: 20;
+    border-style: solid;
+    border-width: 20px;
+    border-image-source: url(../../images/Borders/border1-2.png);
+  }
+
+  .BorderSeaOfThieves{
+    border-color: #2e2e2e;
+    border-image: repeat;
+    border-image-slice: 30;
+    border-style: solid;
+    border-width: 15px;
+    border-image-source: url(../../images/Borders/border8.png);
+  }
+
+  .BorderMinecraft{
+    border-color: #2e2e2e;
+    border-image: repeat;
+    border-image-slice: 25;
+    border-style: solid;
+    border-width: 25px;
+    border-image-source: url(../../images/Borders/border5.png);
+  }
+
+  .BorderOtros{
+    border-color: #2e2e2e;
+    border-image: repeat;
+    border-image-slice: 20;
+    border-style: solid;
+    border-width: 20px;
+    border-image-source: url(../../images/Borders/border2.png);
+  }
+  
+  .imagen-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0s linear 0.3s;
+  }
+
+  .imagen-overlay.mostrar {
+    z-index: 1000;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s, visibility 0s linear 0s;
+  }
+  
+  .imagen-completa {
+    max-width: 95%;
+    max-height: 95%;
+    transform: scale(0);
+    transition: transform 0.3s;
+  }
+
+  .imagen-overlay.mostrar .imagen-completa {
+    transform: scale(1);
+  }
+  
+  .icono-cerrar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 44px;
+    cursor: pointer;
+  }

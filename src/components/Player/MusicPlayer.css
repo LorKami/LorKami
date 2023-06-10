@@ -1,0 +1,80 @@
+.MusicSection {
+  z-index: 999;
+  position: fixed;
+  top: 66%;
+  left: 98%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: end;
+  align-items: flex-end;
+  width: 0px;
+  /* border: solid red 2px; */
+
+}
+
+.MusicBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: wheat;
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0px 5px 1px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 5px 1px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 5px 1px 0px rgba(0,0,0,0.75);
+  transition: 0.3s;
+}
+
+.MusicBtn a {
+  margin-top: 3px;
+}
+
+.MusicBtn:hover{
+    transform: translateY(3px);
+    box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.75);
+}
+
+.MusicBox-Open {
+  transform: translateX(0px);
+  transition: 0.3s;
+  /* border: solid rgb(38, 0, 255) 2px; */
+}
+
+.MusicImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border: solid rgb(38, 0, 255) 2px;
+    animation: 18s infinite linear rotating;
+}
+
+.MusicImage img{
+  width: 100%;
+}
+
+@keyframes rotating {
+    from {
+
+      transform: rotate(0deg);
+    }
+    to {
+
+      transform: rotate(360deg);
+    }
+}
+
+.MusicBox-Closed {
+  transform: translateX(450px);
+  transition: 0.3s;
+  visibility: hidden;
+  /* border: solid rgb(255, 106, 0) 2px; */
+}
+
+

@@ -1,0 +1,44 @@
+.MonitorSec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #282828;
+}
+
+.MonitorBox {
+    display: flex;
+    /* border: 2px solid red; */
+    width: 500px;
+    font-size: 7rem;
+    color: white;
+}
+
+@font-face {
+  font-family: "Kablammo";
+  src: url('https://storage.googleapis.com/atoms-sandbox.google.com.a.appspot.com/Kablammo%5BMORF%5D.woff2') format('woff2'),
+       url('https://storage.googleapis.com/atoms-sandbox.google.com.a.appspot.com/Kablammo%5BMORF%5D.ttf') format('truetype');
+}
+
+@keyframes morph {
+  50% {
+    font-variation-settings: "MORF" 60;
+  }
+}
+
+@layer demo {
+  h1 {
+    font-family: "Kablammo";
+    font-variation-settings: "MORF" 0;
+    font-size: 7rem;
+    animation: morph 10s linear infinite;
+    text-align: center;
+    line-height: 1;
+    
+    > span {
+      font-size: 2em;
+    }
+  }
+}
+

@@ -1,0 +1,37 @@
+.IndexRight {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    margin-top: 7%;
+    margin-left: 90%;
+    background-color: #181C1F;
+    border: solid rgb(0, 217, 255) 2px;
+}
+
+.IndexMenu {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    /* border: solid rgb(255, 0, 212) 2px; */
+    width: 100%;
+}
+
+.IndexMenu p{
+    font-size: 11px;
+    padding-left: 25px;
+}
+
+.IndexMenu a{
+    font-size: 10px;
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    cursor: pointer;
+}
+
+.IndexMenu a:hover{
+    background-color: #2D323A;
+}

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+/* font-family: 'Caveat Brush', cursive; */
+
+/* .Footer {
+    z-index: -1;
+    display: flex;
+    margin-top: 100px;
+    bottom: 0px;
+    width: 100%;
+    background-color: #181C1F;
+    background-image: url(../../images/footerback.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 8.5%;
+    border: solid red 2px;
+} 
+*/
+
+.Footer {
+    z-index: 2;
+    display: flex;
+    margin-top: 150px;
+    position: relative;
+    overflow-y: visible;
+    /* border: solid red 2px; */
+}
+
+.Footer,
+.Footer::before {
+    width: 100%;
+    height: 250px;
+}
+
+.Footer::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url(../../images/footerback2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 0%;
+}
+
+.FooterConainter {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* border: solid rgb(17, 0, 255) 2px; */
+}
+
+.LeftSocial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    /* border: solid rgb(17, 0, 255) 2px; */
+}
+
+.SocialText {
+    width: 380px;
+    height: 120px;
+    font-size: 35px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 800;
+    font-family: 'Caveat Brush', cursive;
+    /* border: solid rgb(166, 255, 0) 2px; */
+}
+
+.SocialButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    /* border: solid rgb(0, 255, 255) 2px; */
+}
+
+.Button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 119px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: wheat;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 5px 1px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 5px 1px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 1px 0px rgba(0,0,0,0.75);
+    transition: 0.3s;
+}
+
+.Button:hover {
+    transform: translateY(3px);
+    box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.75);
+}
+
+.Button img {
+    display: flex;
+    width: 100%;
+}
+
+.ImageButton {
+    padding-right: 7px;
+    width: 25px;
+    height: 25px;
+}
+
+.CenterImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: solid rgb(255, 0, 255) 2px; */
+}
+
+.CenterCopy {
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.ImageCentered {
+    margin-top: -80px;
+    width: 200px;
+}
+
+.ImageCentered img {
+    display: flex;
+    width: 100%;
+}
+
+.RightText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    /* border: solid rgb(0, 255, 0) 2px; */
+}
+
+.RightContent {
+    width: 350px;
+    /* border: solid rgb(255, 0, 255) 2px; */
+}
+
+.RightContent p {
+    font-size: 0.9rem;
+}

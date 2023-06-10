@@ -1,0 +1,52 @@
+.code-box {
+    /* background-color: #282c34; */
+    /* border: 1px solid #1f2329; */
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  
+  .code-box pre {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    margin: 0;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    color: #e5e5e5;
+  }
+  
+  .code-box button {
+    position: absolute;
+    top: 1.7rem;
+    right: 1.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #0365d6ad;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .code-box button:hover {
+    background-color: #0365d6d8;
+  }
+  
+  .code-box button:focus {
+    outline: none;
+  }
+  
+  .code-box button:active {
+    background-color: #044aac00;
+  }
+  
+  .code-box button.copied {
+    background-color: #28a745;
+  }
+  
+  .code-box button.copied:hover {
+    background-color: #218838;
+  }
+  

@@ -1,0 +1,257 @@
+.Monitor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #181C1F;
+    /* border: solid red 2px; */
+}
+
+.Banner {
+    width: 100%;
+    height: 300px;
+    background-image: url(../../images/ReactPages/bannerwhitepapper.png);
+    background-position: center center;
+    background-size: cover;
+    /* border: 2px solid red; */
+}
+
+.WhitePapperSection {
+    display: flex;
+    width: 100%;
+    /* border: solid rgb(255, 102, 0) 2px; */
+}
+
+.InfoLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 450px;
+    padding-right: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px; */
+    width: 100%;
+    color: white;
+    /* border: solid rgb(4, 0, 255) 2px;  */
+}
+
+.InfoSection p.INegrita{
+    font-weight: 800;
+    color: #cdffba;
+}
+
+.INegrita {
+    font-weight: 800;
+    color: #cdffba;
+}
+
+.IRojo {
+    font-weight: 800;
+    color: #ffbaba;
+}
+
+.BotonDescargaSeccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.InfoSection p.BotonDescarga {
+    font-weight: 800;
+    text-align: center;
+    width: 224px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: #0075d4;
+    transition: 0.2s ease-in-out;
+}
+
+.InfoSection p.BotonDescarga:hover {
+    background-color: #008cff;
+}
+
+.Deployar span.INegrita,
+.MasUsados span.INegrita{
+    font-weight: 800;
+    color: #cdffba;
+}
+
+.MasUsados a,
+.ConvesorImage a {
+    text-decoration: none;
+    color: rgb(145, 49, 255);
+    font-weight: 800;
+}
+
+
+.InfoSection,
+.Deployar,
+.MasUsados,
+.Metadatos,
+.LinkSec,
+.FontPer,
+.ScrollBar,
+.Responsive,
+.MenuSticky,
+.GRIDGallery,
+.BorderStyle,
+.BarraDeProgreso,
+.ConvesorImage,
+.DeployarVercel {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-bottom: 50px;
+    border-bottom: solid 2px #374151;
+    /* border: solid rgb(255, 102, 0) 2px; */
+}
+
+.IntroductionImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: solid rgb(4, 0, 255) 2px;  */
+}
+
+.IntroductionImage img{
+    display: flex;
+    width: 40%;
+}
+
+.InfoSection p,
+.Deployar p{
+    text-align: justify;
+}
+
+.ImagePosition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.IndexRight {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    /* border: solid rgb(0, 217, 255) 2px; */
+}
+
+.IndexMenu {
+    position: sticky;
+    top: 170px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    height: 600px;
+    /* border: solid rgb(255, 0, 212) 2px; */
+}
+
+.IndexMenu p{
+    font-size: 12px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    cursor: default;
+    border-bottom: solid 2px #374151;
+}
+
+.IndexMenu a{
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    padding-left: 15px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.IndexMenu a:hover{
+    background-color: #2D323A;
+}
+
+.active {
+    background-color: #2D323A;
+}
+
+.ReactIconsSecEjemplo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    /* border: 2px solid red; */
+}
+
+.BTNTwitter {
+    color: #1DA1F2;
+}
+
+.BTNDiscord {
+    color: #7289DA;
+}
+
+.BTNTelegram {
+    color: #269fde;
+}
+
+.color-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .color {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .color-swatch {
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    border: 1px white solid;
+  }
+
+  .color-code {
+    margin: 0;
+  }
+
+  .ReactIconsSec {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    /* border: 2px solid red; */
+}
+
+.ReactIconsSec a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.BTNTwitEje:hover {
+    transform: scale(1.2) rotate(7deg);
+    color: #1DA1F2;
+    cursor: pointer;
+}
+
+.BTNDiscEje:hover {
+    color: #7289DA;
+    transform: scale(1.2) rotate(7deg);
+}
+
+.Bloqueado {
+    cursor: not-allowed;
+}
+
+.BTNTeleje:hover {
+    color: #7a7a7a;
+}
