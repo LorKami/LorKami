@@ -1,9 +1,0 @@
-{
-    "builds": [
-      {
-        "src": "gh-pages/**",
-        "use": "@vercel/static"
-      }
-    ]
-  }
-  
