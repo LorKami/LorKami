@@ -113,11 +113,17 @@ const Galeria = () => {
       require('../../images/Galeria/RedDeadRedemption2/Quemadura1.webp'),
       require('../../images/Galeria/RedDeadRedemption2/pkt.webp'),
       require('../../images/Galeria/RedDeadRedemption2/Mijail1.webp'),
+      require('../../images/Galeria/RedDeadRedemption2/Mijail2.webp'),
       require('../../images/Galeria/RedDeadRedemption2/Agua1.webp'),
       require('../../images/Galeria/RedDeadRedemption2/Corona.webp'),
       require('../../images/Galeria/RedDeadRedemption2/Baile1.webp'),
       require('../../images/Galeria/RedDeadRedemption2/amor.webp'),
       require('../../images/Galeria/RedDeadRedemption2/hombrestribu.webp'),
+      require('../../images/Galeria/RedDeadRedemption2/red1.webp'),
+      require('../../images/Galeria/RedDeadRedemption2/red2.webp'),
+      require('../../images/Galeria/RedDeadRedemption2/red3.webp'),
+      require('../../images/Galeria/RedDeadRedemption2/red4.webp'),
+      require('../../images/Galeria/RedDeadRedemption2/red5.webp'),
     ];
 
     const Fivem = [
@@ -253,6 +259,8 @@ const Galeria = () => {
       require('../../images/Galeria/Fivem/Ganga28.webp'),
       require('../../images/Galeria/Fivem/Ganga29.webp'),
       require('../../images/Galeria/Fivem/Otro1.webp'),
+      require('../../images/Galeria/Fivem/VivaChile1.webp'),
+      require('../../images/Galeria/Fivem/VivaChile2.webp'),
     ];
 
     const SeaOfThieves = [
@@ -310,6 +318,16 @@ const Galeria = () => {
       require('../../images/Galeria/OtrosJuegos/Otros28.webp'),
       require('../../images/Galeria/OtrosJuegos/Otros29.webp'),
       require('../../images/Galeria/OtrosJuegos/Otros30.webp'),
+      require('../../images/Galeria/OtrosJuegos/Otros31.webp'),
+      require('../../images/Galeria/OtrosJuegos/Otros32.webp'),
+      require('../../images/Galeria/OtrosJuegos/Otros33.webp'),
+      require('../../images/Galeria/OtrosJuegos/Otros34.webp'),
+      require('../../images/Galeria/OtrosJuegos/Otros35.webp'),
+      require('../../images/Galeria/OtrosJuegos/Otros36.webp'),
+      require('../../images/Galeria/OtrosJuegos/Otros37.webp'),
+      require('../../images/Galeria/OtrosJuegos/Otros38.webp'),
+      require('../../images/Galeria/OtrosJuegos/Otros39.webp'),
+      require('../../images/Galeria/OtrosJuegos/Otros40.webp'),
   ];
 
   const Minecraft = [

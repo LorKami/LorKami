@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
+
 import '../Monitor/Monitor.css'
 
 import { Typewriter } from 'react-simple-typewriter';
