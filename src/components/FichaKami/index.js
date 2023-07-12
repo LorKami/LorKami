@@ -91,7 +91,7 @@ const FichaPolicialKami = () => {
             </div>
             <div className='Certificaciones'>
                 <h2>CERTIFICACIÓNES Y ASIGNACIÓNES INTERESTATALES</h2>
-                <p>p</p>
+                <p>luego</p>
             </div>
         </div>
 
