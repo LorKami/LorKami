@@ -7,19 +7,18 @@
     flex-direction: column;
     margin-top: 12%;
     /* margin-left: -240px; */
-    width: 300px;
+    width: 250px;
     height: 400px;
     border-radius: 0px 10px 10px 0px;
     background-color: rgb(250, 238, 218);
-    background-image: url(../../images/Menu/footerback.png);
+    background-image: url(../../images/Menu/footerback.webp);
     background-position: center 8%;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    /* border: solid red 2px; */
-
-    transform: translateX(-13px);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    transform: translateX(0px);
     transition: 0.3s;
+    /* border: solid red 2px; */
 }
 
 .SuperMenu-Closed {
@@ -29,18 +28,17 @@
     flex-direction: column;
     margin-top: 12%;
     /* margin-left: -240px; */
-    width: 300px;
+    width: 250px;
     height: 400px;
     border-radius: 0px 10px 10px 0px;
     background-color: rgb(250, 238, 218);
-    background-image: url(../../images/Menu/footerback.png);
+    background-image: url(../../images/Menu/footerback.webp);
     background-position: center 1%;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     /* border: solid red 2px; */
-
-    transform: translateX(-240px);
+    transform: translateX(-187px);
     transition: 0.3s;
 }
 
@@ -53,21 +51,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 50px;
     width: 100%;
+    height: 50px;
     /* border: solid rgb(102, 255, 0) 2px; */
 }
 
 .MenuLogo img {
     display: flex;
-    width: 20%;
-    transition: 1s;
+    width: 80%;
+    height: 80%;
+    /* padding-left: 30px; */
+    object-fit: contain;
+    transition: 0.3s ease-in-out;
 }
 
 
-.MenuLogo img:hover{
+.MenuLogo img:hover {
     transform: rotate(-30deg) scale(1.05);
 }
+
 .MenuHamburger {
     width: 70px;
     display: flex;
@@ -79,7 +81,7 @@
     /* border: solid red 2px;  */
 }
 
-.MenuHamburger:hover{
+.MenuHamburger:hover {
     transform: translateY(3px);
 }
 
@@ -99,7 +101,7 @@
 .MenuContainer p {
     text-decoration: none;
     color: #6b553b;
-    font-size: 28px;
+    font-size: 1.6rem;
     font-family: 'Caveat Brush', cursive;
     cursor: pointer;
 }
@@ -108,48 +110,51 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     height: 25px;
-    margin-top: 50px;
+    width: 100%;
+    /* margin-top: 50px; */
     border-bottom: 2px solid black;
-    /* border: solid rgb(0, 47, 255) 2px;  */
-    }
-    
-    .MenuPlus {
-        display: flex;
-        width: 25px;
-        height: 25px;
-        margin-left: 33%;
-        cursor: pointer;
-        /* border: solid rgb(255, 60, 0) 2px; */
-    }
+    /* border: solid rgb(0, 47, 255) 2px; */
+}
 
-    .MenuPlus span{
-        color: #6b553b;
-        transition: 0.3s;
-    }
+.MenuPlus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    /* border: solid rgb(255, 60, 0) 2px; */
+}
 
-    .MenuPlus span::after{
-        color: #2d2d2d;
-        transform: rotate(180deg)
-    }
+.MenuPlus span {
+    color: #6b553b;
+    transition: 0.3s;
+}
 
-    .Menu p{
-        transition: 0.3s;
-    }
-    
-    .Menu p:hover {
-        color: #2d2d2d;
-        transform: translateX(3px);
-    }
+.MenuPlus span::after {
+    color: #2d2d2d;
+    transform: rotate(180deg)
+}
+
+.Menu p {
+    font-size: 1.6rem;
+    transition: 0.3s;
+}
+
+.Menu p:hover {
+    color: #2d2d2d;
+    transform: translateX(3px);
+}
 
 .MenuSocial {
-    width: 15%;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin-top: 180px;
     margin-right: 14px;
+    width: 20%;
     height: 40%;
     /* border: solid rgb(0, 225, 255) 3px; */
 }
@@ -157,8 +162,8 @@
 .SocialIco {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
     height: 100%;
     /* border: solid rgb(255, 0, 21) 2px; */
 }
@@ -168,6 +173,9 @@
 }
 
 .SocialIco a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition: 0.3s;
 }
 
@@ -177,17 +185,26 @@
 }
 
 .SocialIco img {
-    display: flex;
     width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .MenuText {
-    margin-left: 70px;
-    line-height: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    line-height: 0px;
+    width: 100%;
+    margin-top: 40px;
+    /* border: 1px solid red; */
 }
 
-.MenuText p{
+.MenuText p {
     transition: 0.3s;
+    margin: 6px;
 }
 
 .MenuText p:hover {
@@ -200,34 +217,39 @@
 
 
 .MorePanel-Open {
-    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     transition: 0.3s;
     line-height: 10px;
+    margin-top: 10px;
     /* background-color: red; */
-    }
+    /* border: 1px solid blue; */
+}
 
-    .MorePanel-Open p{
-        transition: 0.3s;
-    }
-    
-    .MorePanel-Open p:hover {
-        color: #2d2d2d;
-        transform: translateX(3px);
-    }
+.MorePanel-Open p {
+    font-size: 1.3rem;
+    transition: 0.3s;
+    margin: 6px;
+}
 
-    .MorePanel-Closed {
-        display: none;
-        transition: 0.3s;
-    }
+.MorePanel-Open p:hover {
+    color: #2d2d2d;
+    transform: translateX(3px);
+}
+
+.MorePanel-Closed {
+    display: none;
+    transition: 0.3s;
+}
 
 
-    /* ICON */
+/* ICON */
 .Arrow-up {
     transform: rotate(180deg);
-  }
+}
 
 .Arrow-down {
     transform: rotate(360deg);
 }
-
- 

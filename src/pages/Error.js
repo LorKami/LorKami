@@ -1,14 +1,14 @@
 import React from 'react'
 import Menu from "../components/Menu"
 import ErrorPage from "../components/ErrorPage"
-import Player from "../components/Player"
+import PlayerApp from "../components/PlayerApp"
 
 function Error() {
   return (
     <div>
-        <Menu />
-        <ErrorPage />
-        <Player />
+      <Menu />
+      <ErrorPage />
+      <PlayerApp />
     </div>
   )
 }

@@ -1,0 +1,374 @@
+@font-face {
+    font-family: 'TituloDiscord';
+    src: url('../../../public/fonts/UniSansHeavy.otf');
+}
+
+body {
+    --fondooscuro: #1e1f22;
+    --fondooscuroclaro: #2b2d31;
+    --titulos: #949ba4;
+    --hoverMenu: #36373d;
+    --hoverMenuActivo: #404249;
+    --fondoperfil: #232428;
+}
+
+.MonitorDisc {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid white; */
+}
+
+.MonitorBoxes {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.MonitorTitutloSecction {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 20px;
+    background-color: var(--fondooscuro);
+    /* border: 1px solid white; */
+}
+
+.MonitorTitutlo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    /* border: 1px solid rgb(184, 15, 15); */
+}
+
+.MonTitulo {
+    display: flex;
+    margin-left: 20px;
+    color: var(--titulos);
+}
+
+.MonTitulo h4 {
+    font-size: 0.8rem;
+    font-family: 'TituloDiscord', sans-serif;
+}
+
+.MonitorTituloBotonesDecorativos {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    /* border: 1px solid rgb(5, 59, 209); */
+}
+
+.MonTitBotDeco {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60px;
+    color: var(--titulos);
+    margin-right: 20px;
+    /* border: 1px solid rgb(209, 5, 5); */
+}
+
+.MonTitBotDeco a {
+    display: flex;
+    text-decoration: none;
+    color: var(--titulos);
+}
+
+.MonitorPrincipalSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 100%;
+    background-color: var(--fondooscuroclaro);
+    /* border: 1px solid white; */
+}
+
+.MonitorPrincipalMenuIzquierda {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.MonitorPrincipalMenu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid white; */
+}
+
+.MonitorPrincipalMenuMusica {
+    display: none;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid yellow; */
+}
+
+.BoxMenu {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 2px;
+    /* border: 1px solid rgb(226, 221, 221); */
+}
+
+.BoxMenu:hover {
+    background-color: var(--hoverMenu);
+    border-radius: 5px;
+}
+
+.activeDiscord {
+    background-color: var(--hoverMenuActivo);
+    border-radius: 5px;
+}
+
+.BoxMenuContent {
+    display: flex;
+    align-items: center;
+}
+
+.BoxMenuIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--titulos);
+    height: 17px;
+    /* border: 1px solid white; */
+}
+
+.BoxMenuLink {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 17px;
+    margin-left: 10px;
+    /* border: 1px solid white; */
+}
+
+.MonitorPrincipalMenu a {
+    text-decoration: none;
+    color: var(--titulos);
+}
+
+.MonitorPrincipalPerfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5%;
+    background-color: var(--fondoperfil);
+    /* border: 2px solid red; */
+}
+
+.MonitorPrincipalDatosPerfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid white; */
+}
+
+.MonitorPrincipalDatosPerfil p {
+    margin: 0px;
+    font-size: 0.7rem;
+    color: white;
+    font-weight: 700;
+}
+
+.MonitorPrincipalImagePerfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid yellow; */
+}
+
+.MonitorPrincipalImagePerfil img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.MonitorPrincipalNombrePerfil {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.MonitorPrincipalDatosPerfil span {
+    margin: 0px;
+    font-size: 0.6rem;
+    color: var(--titulos);
+}
+
+.MonitorPrincipalBtnDecorativos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    padding-right: 10px;
+    color: var(--titulos);
+    /* border: 1px solid yellow; */
+}
+
+.MonitorPrincipalBtnDecorativos .ClickHeadPhone {
+    cursor: pointer;
+}
+
+.MonitorPrincipalMonitorDerecha {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.MonitorPrincipalDerechaTitulo {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    /* border: 2px solid white; */
+}
+
+.MonitorPrincipalDerechaTitulodePagina {
+    display: flex;
+    width: 100%;
+    background-color: var(--fondooscuroclaro);
+    /* border: 1px solid purple; */
+}
+
+.MonitorPrincipalDerechaTitulos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: var(--titulos);
+    /* border: 2px solid rgb(0, 162, 255); */
+}
+
+.MonitorPrincipalDerechaIcono {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 100%;
+    /* border: 1px white solid; */
+}
+
+.MonitorPrincipalDerechaIcono img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.MonitorPrincipalDerechaTitulos p {
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 800;
+}
+
+.MonitorPrincipalDerechaTitulos span {
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+
+.MonitorPrincipalDerechaIconosDecorativos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    padding-right: 25px;
+    color: var(--titulos);
+    background-color: var(--fondooscuroclaro);
+    /* border: 2px solid yellow; */
+}
+
+.CuadroDeBusqueda {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 80px; */
+    width: auto;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: var(--fondooscuro);
+}
+
+.CuadroDeBusqueda span {
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+
+.CuadroDeBusqueda input {
+    display: block;
+    width: 80px;
+    height: 18px;
+    background-color: var(--fondooscuro);
+    font-size: 0.7rem;
+    border-radius: 0px;
+    border: 0px;
+    color: rgb(212, 212, 212);
+    /* background-image: url('../../images/searchicon.png');
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    background-size: 10px; */
+    transition: width 0.4s ease-in-out;
+    outline: none;
+}
+
+.CuadroDeBusqueda input:focus {
+    width: 140px;
+}
+
+.CuadroDeBusqueda::placeholder {
+    background-color: var(--fondooscuro);
+}
+
+.MonitorPrincipalPaginas {
+    width: 90vw;
+    height: 94vh;
+    overflow: auto;
+    /* border: 1px solid red; */
+}
+
+.BadgeSec {
+    position: relative;
+    display: inline-block;
+    left: 3px;
+}
+
+.BadgeProfile {
+    z-index: 1000;
+    position: absolute;
+    bottom: 7px;
+    right: 5px;
+    width: 9px;
+    height: 9px;
+    background-color: #23A55A;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 3px solid var(--fondoperfil);
+}

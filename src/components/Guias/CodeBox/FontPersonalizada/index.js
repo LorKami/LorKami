@@ -6,10 +6,10 @@ import '../CodeBox.css';
 
 
 const ReactDomAntiguoFuncional = () => {
-    const code = 
-`@font-face {
+  const code =
+    `@font-face {
   font-family: 'MiFuentePersonalizada';
-  src: url('../public/fonts/CoffeCake.otf');
+  src: url('../../../public/fonts/UniSansHeavy.otf');
 }
 
 body {

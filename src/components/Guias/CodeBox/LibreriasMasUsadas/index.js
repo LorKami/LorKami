@@ -6,8 +6,8 @@ import '../CodeBox.css';
 
 
 const LibreriasMasUsadas = () => {
-    const code = 
-`npm i react-router-dom
+  const code =
+    `npm i react-router-dom
 npm i react-scroll
 npm i gh-pages
 npm i react-icons --save

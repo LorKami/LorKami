@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+.MusicSection2 {
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 170px;
+  /* border: solid red 2px; */
+}
+
+/* .MusicBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid yellow;
+} */
+
+.MusicBox-Open {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  transition: 0.3s;
+  /* border: 1px solid yellow; */
+}
+
+.MusicImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border: 1px solid blue;
+  animation: 18s infinite linear rotating;
+}
+
+.MusicImage img {
+  width: 100%;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.MusicBox-Closed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  transition: 0.3s;
+  /* border: 1px solid yellow; */
+  visibility: hidden;
+}
+
+.MusicPic {
+  display: flex;
+  width: 60%;
+  animation: 18s infinite linear rotating;
+}
+
+.MusicPic img {
+  display: flex;
+  width: 100%;
+}
+
+.MusicInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+.player_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  color: #282828;
+  /* backdrop-filter: blur(10px); */
+}
+
+.player_container>* {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 100%;
+  padding: 0.2rem 0;
+  color: white;
+  /* border: 1px solid purple; */
+}
+
+.player_container .ImageMusic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.player_container .MusicPic {
+  display: flex;
+  width: 60%;
+  animation: rotating 18s infinite linear;
+}
+
+.player_container .MusicPic img {
+  display: flex;
+  width: 100%;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.player_container .MusicInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.player_container .title,
+.player_container .artist {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 23px;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.player_container .artist {
+  font-size: 0.6rem;
+  font-weight: 100;
+}
+
+.player_container .navigation {
+  width: 95%;
+}
+
+.player_container .navigation .navigation_wrapper {
+  min-width: 100%;
+  background-color: rgba(119, 119, 119, 0.781);
+  height: 5px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.player_container .navigation .navigation_wrapper .seek_bar {
+  width: 0;
+  height: 100%;
+  background-color: white;
+  border-radius: 30px;
+
+}
+
+.player_container .time {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 13px;
+  /* border: 1px solid yellow; */
+}
+
+.player_container .time p {
+  font-size: 0.55rem;
+}
+
+.player_container .Controls-Principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  height: auto;
+  /* border: 1px solid red; */
+}
+
+.player_container .controls {
+  font-size: inherit;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid yellow; */
+}
+
+.player_container .controls .btn_list {
+  font-size: 1rem;
+  margin: 0px 1px;
+  cursor: pointer;
+}
+
+.player_container .controls .btn_action {
+  font-size: 1.3rem;
+  margin: 0px 1px;
+  cursor: pointer;
+}
+
+.player_container .controls .btn_action:hover {
+  color: white;
+}
+
+.player_container .controls .pp {
+  font-size: 1.3rem;
+}
+
+.playlist {
+  z-index: 100;
+  display: flex;
+  position: fixed;
+  top: calc(50% - -95px);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--fondooscuro);
+  width: 200px;
+  height: auto;
+  /* border: 1px solid red; */
+  backdrop-filter: blur(10px);
+}
+
+.playlist p {
+  display: flex;
+  cursor: pointer;
+  /* justify-content: center;
+  align-items: center; */
+  margin: 0px;
+  font-size: 0.8rem;
+  text-decoration: none;
+  list-style: none;
+  color: var(--titulos);
+}
+
+.BoxMenuRadio {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  margin: 2px;
+  width: 184px;
+  /* border: 1px solid rgb(226, 221, 221); */
+}
+
+.BoxMenuRadio:hover {
+  background-color: var(--hoverMenu);
+  border-radius: 5px;
+}
+
+.BoxMenuContentRadio {
+  display: flex;
+  align-items: start;
+}
