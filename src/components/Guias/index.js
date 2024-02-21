@@ -239,7 +239,7 @@ const Guias = () => {
               <p>Finalmente, siguiendo todos los pasos anteriores, en la misma consola del VsCode, usar el comando <span className='INegrita'>"npm run deploy"</span> esperar hasta que termine de crear y acomodar los archivos en la carpeta "Build" y te muestre un mensaje en la consola que diga <span className='INegrita'>"Published"</span></p>
               <NpmRunDeploy />
               <h2>Paso 4: Instalar CLI Vercel</h2>
-              <p>En la consola poner el siguente comando: </p><span className='INegrita'>npm i -g -vercel</span>
+              <p>En la consola poner el siguente comando: </p><span className='INegrita'>npm install -g vercel</span>
               <h2>Paso 5: Iniciar sesion</h2>
               <p>En la consola poner el siguente comando: <span className='INegrita'>vercel login</span> Esto abrira una ventana en el explorador en donde iniciaremos sesion en la pagina de Vercel.</p>
               <h2>Pago 6: Configurar Vercel</h2>

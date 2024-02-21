@@ -31,6 +31,7 @@ const imagesFortnite = importAll(require.context('../../images/Galeria/Fortnite'
 const imagesSea = importAll(require.context('../../images/Galeria/SeaOfThieves', false, /\.(webp)$/));
 const imagesMine = importAll(require.context('../../images/Galeria/Minecraft', false, /\.(webp)$/));
 const imagesOtros = importAll(require.context('../../images/Galeria/OtrosJuegos', false, /\.(webp)$/));
+const videosRandom = importAll(require.context('../../images/Galeria/Videos', false, /\.(webp)$/));
 
 function importAll(r) {
     return r.keys().map(r);
@@ -238,7 +239,7 @@ const ProyectoDiscord = () => {
                             {activePage === 'inicio' && <Home />}
                             {activePage === 'guias' && <Guias />}
                             {activePage === 'galeria' && <Galeria />}
-                            {activePage === 'galeriasearch' && (<GaleriaSearch searchText={searchText} setSearchText={setSearchText} images={[...imagesRedDead, ...imagesFivem, ...imagesFortnite, ...imagesSea, ...imagesMine, ...imagesOtros]} />)}
+                            {activePage === 'galeriasearch' && (<GaleriaSearch searchText={searchText} setSearchText={setSearchText} images={[...imagesRedDead, ...imagesFivem, ...imagesFortnite, ...imagesSea, ...imagesMine, ...imagesOtros, ...videosRandom]} />)}
                             {activePage === 'fichamv' && <FichaMV />}
                         </div>
 
